@@ -49,6 +49,12 @@ The **BOSS RC-30 Loop Station** supports playback of `.wav` files in a specific 
   - Removes `.wav` files from subfolders within the `ROLAND` directory.
   - Ensures a clean slate for the next batch of tracks.
 
+### 4. `convert_audio_CODEC.py`
+- **Purpose**: Converts `.wav` and `.mp3` files to the required format for the BOSS RC-30 Loop Station.
+- **Key Features**:
+  - Converts files to `.wav` format.
+  - Appends `_converted` to the original filename.
+
 ---
 
 ## Instructions for File Preparation
@@ -110,3 +116,31 @@ Before transferring new files, clear the RC-30’s `ROLAND` folder:
 ## Disclaimer
 
 These scripts are provided as a convenience tool for managing `.wav` files compatible with the **BOSS RC-30 Loop Station**. Proper use is essential to avoid data loss. Always back up your data before transferring
+
+## Audio Conversion Script
+
+### Overview
+This Python script is designed to convert `.wav` and `.mp3` files into a format compatible with devices like the **BOSS RC-30 Loop Station**. It ensures that audio files meet the following specifications:
+
+- **Format**: WAV
+- **Bit Rate**: 16-bit linear, stereo
+- **Sampling Frequency**: 44.1 kHz
+- **File Size**: Maximum of 1.7 GB
+- **Total Duration**: Approximately 3 hours (total across all files)
+- **Minimum Duration**: 1.5 seconds
+
+### Features
+- **File Compatibility**: Supports `.wav` and `.mp3` input formats.
+- **Audio Processing**: Converts files to the required specifications, including frame rate, channel count, and bit depth.
+- **Output Management**: Saves converted files in a designated output directory, appending `_converted` to the original file name.
+
+### Alternative: Using VLC Media Player for Conversion
+If you prefer not to use Python or need a graphical user interface, **VLC Media Player** can also be used to convert audio files to the required format. VLC is free, widely available, and capable of handling the necessary adjustments.
+
+### Usage Instructions
+
+#### Prerequisites
+1. **Install Python Dependencies**:  
+   This script requires the `pydub` library and `ffmpeg`:
+   ```bash
+   pip install pydub

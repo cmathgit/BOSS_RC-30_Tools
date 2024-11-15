@@ -84,9 +84,9 @@ def rename_and_copy_wav_files(directory):
         log_file.write(summary)
 
 # Specify the directory containing .wav files
-directory = 'my_tracks'
+directory = 'converted_tracks'
 script_dir = os.path.dirname(os.path.abspath(__file__))
-directory = os.path.join(script_dir, 'my_tracks')
+directory = os.path.join(script_dir, 'converted_tracks')
 
 # Add debug prints
 print(f"Looking for .wav files in: {directory}")

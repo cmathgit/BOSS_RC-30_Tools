@@ -1,0 +1,21 @@
+Track Renaming Log
+=================
+
+Copied existing file: 001_1.wav (preserved original name)
+Copied existing file: 002_1.wav (preserved original name)
+Copied existing file: 013_1.wav (preserved original name)
+Copied existing file: 013_2.wav (preserved original name)
+Renamed: Metal Tools 2 110 BPM Live Drum Kit 5 ML Sound Lab-converted.wav -> 003_1.wav
+Renamed: Metal Tools 2 110 BPM Live Drum Kit 6 ML Sound Lab-converted.wav -> 004_1.wav
+Renamed: Metal Tools 2 110 BPM Live Drum Kit 7 ML Sound Lab-converted.wav -> 005_1.wav
+Renamed: Metal Tools 2 110 BPM Live Drum Kit 8 ML Sound Lab-converted.wav -> 006_1.wav
+
+Process complete. Total files copied and renamed: 4.
+Moved '001_1.wav' to 'ROLAND/WAVE/001_1'
+Moved '002_1.wav' to 'ROLAND/WAVE/002_1'
+Moved '003_1.wav' to 'ROLAND/WAVE/003_1'
+Moved '004_1.wav' to 'ROLAND/WAVE/004_1'
+Moved '005_1.wav' to 'ROLAND/WAVE/005_1'
+Moved '006_1.wav' to 'ROLAND/WAVE/006_1'
+Moved '013_1.wav' to 'ROLAND/WAVE/013_1'
+Moved '013_2.wav' to 'ROLAND/WAVE/013_2'

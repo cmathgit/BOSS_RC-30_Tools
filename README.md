@@ -9,6 +9,14 @@ This repository contains Python scripts to help manage `.wav` files for the **BO
 4. [Connecting the RC-30 to Your Computer](#connecting-the-rc-30-to-your-computer)
 5. [Disclaimer](#disclaimer)
 
+## LLM Code Generation Notice
+
+Portions of this codebase were generated or refined using large language models (LLMs) including models such as Gemini, ChatGPT, Claude, DeepSeek, Qwen, Dolphin-Llama, and more, integrated API Plugins Such as Cline, Continue, Roo Code, and more, and Service Providers such as OpenRouter, Ollama, HuggingFace, Cursor, and GitHub Copilot and more. Final code was reviewed and adapted by the project maintainer. Use at your own risk.
+
+# Limitation of Liability Statement
+
+For a complete Limitation of Liability Statement, please visit my [website](https://crossofthemessiah.w3spaces.com/).
+
 ---
 
 ## Introduction

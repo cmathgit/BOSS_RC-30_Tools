@@ -15,4 +15,7 @@
 *.gif
 .cursorignore
 .env
+env
 venv
+!BOSS_rc30_LoopStation_Manual_p14.png
+!BOSS_rc30_LoopStation_Manual_p15.png

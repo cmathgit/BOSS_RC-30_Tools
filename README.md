@@ -154,7 +154,7 @@ If you prefer not to use Python or need a graphical user interface, **VLC Media 
    pip install pydub
 
 # How to Clear BOSS RC-30
-## Before proceeding, copy entire "ROLAND" folder on RC-30 to backup drive
+## Before proceeding, copy entire "ROLAND" folder on RC-30 to backup drive. Only delete folders as follows. Never delete folders without performing a recovery. Do not place more than one WAV file in any folder. If a folder already contains a WAV file, do not overwrite it. Write WAV files into empty folders only. Filenames can contain the following characters: A-Z (uppercase letters), 0-9 (numerals), _ (underscore)
 ## 1. In the BOSS RC-30 drive, delete the "ROLAND" folder
 ### WARNING-backup "ROLAND" to another drive to prevent data loss
 ## 2. Copy entire "ROLAND" folder (empty phrases) in pwd to the BOSS RC-30 drive. 
@@ -190,7 +190,7 @@ E:/
                └── 099_2.WAV
 
 ```
-### All files must be .wav data format, 16-bit linear, stereo bitrate, and 44.1kHz sampling frequency
+### All files must be .wav data format, 16-bit linear, stereo bitrate, and 44.1kHz sampling frequency. Use script [convert_audio_CODEC.py](https://github.com/cmathgit/BOSS_RC-30_Tools/blob/main/convert_audio_CODEC.py) to convert into playable format.
 ### Option A. Copy each phrase individually. 
 #### Folder Structure (Drive letter may differ)
 ``` plaintext

@@ -156,45 +156,58 @@ If you prefer not to use Python or need a graphical user interface, **VLC Media 
 # How to Clear BOSS RC-30
 ## Before proceeding, copy entire "ROLAND" folder on RC-30 to backup drive
 ## 1. In the BOSS RC-30 drive, delete the "ROLAND" folder
-### -backup "ROLAND" to another drive to prevent data loss
+### WARNING-backup "ROLAND" to another drive to prevent data loss
 ## 2. Copy entire "ROLAND" folder (empty phrases) in pwd to the BOSS RC-30 drive. 
 ### -All tracks are now clear
-## Folder Structure
+## Folder Structure (Drive letter may differ)
 ``` plaintext
-BOSS_RC_30/
-└── ROLAND/
-    └── WAVE/
+E:/
+└──BOSS_RC_30/
+   └── ROLAND/
 ```
 
 # How to Load Phrases into BOSS RC-30
 ## 1. Same as step 1 above
 ## 2. Copy .wav files from computer drive into the respective folder on BOSS RC-30 drive, e.g., copy 001_1.wav and 001_2.wav files into /001_1/ and /001_2/ folders, repspectively, and so on, that is, up to 099_1.wav and 099_2.wav into /099_1/ and /099_2/, repspectively.
-## Folder Structure
+## Folder Structure (Drive letter may differ)
 ``` plaintext
-BOSS_RC_30/
-└── ROLAND/
-    └── WAVE/
-        ├── 001_1/
-        │   └── 001_1.WAV
-        ├── 001_2/
-        │   └── 001_2.WAV
-        ├── 002_1/
-        │   └── 002_1.WAV
-        ├── 002_2/
-        │   └── 002_2.WAV
-        └── ...
-        ├── 099_1/
-        │   └── 099_1.WAV
-        └── 099_2/
-            └── 099_2.WAV
+E:/
+└──BOSS_RC_30/
+   └── ROLAND/
+       └── WAVE/
+           ├── 001_1/
+           │   └── 001_1.WAV
+           ├── 001_2/
+           │   └── 001_2.WAV
+           ├── 002_1/
+           │   └── 002_1.WAV
+           ├── 002_2/
+           │   └── 002_2.WAV
+           └── ...
+           ├── 099_1/
+           │   └── 099_1.WAV
+           └── 099_2/
+               └── 099_2.WAV
 
 ```
 ### All files must be .wav data format, 16-bit linear, stereo bitrate, and 44.1kHz sampling frequency
 ### Option A. Copy each phrase individually. 
+#### Folder Structure (Drive letter may differ)
+``` plaintext
+E:/
+└──BOSS_RC_30/
+   └── ROLAND/
+       └── WAVE/
+           ├── 001_1/
+           │   └── 001_1.WAV
+           ├── 001_2/
+           │   └── 001_2.WAV
+		   └── ...
+```
 ### Option B. Compile all phrases into the "ROLAND" folder before hand and copy entire "ROLAND" folder.
 ## Folder Structure
 ``` plaintext
-BOSS_RC_30/
-└── ROLAND/
-    └── WAVE/
+E:/
+└──BOSS_RC_30/
+   └── ROLAND/
 ```

@@ -148,10 +148,34 @@ If you prefer not to use Python or need a graphical user interface, **VLC Media 
 ### Usage Instructions
 
 #### Prerequisites
-1. **Install Python Dependencies**:  
-   This script requires the `pydub` library and `ffmpeg`:
+1. **Python 3**: Ensure Python 3 is installed on your system.
+
+2. **Setup Virtual Environment**:  
+   It is recommended to use a virtual environment to manage dependencies for this project.
+
+   *   **Create the virtual environment:**  
+       Navigate to the root of the project directory in your terminal and run:
+       ```bash
+       python -m venv venv
+       ```
+
+   *   **Activate the virtual environment:**
+       *   On Windows:
+           ```bash
+           venv\Scripts\activate
+           ```
+       *   On macOS and Linux:
+           ```bash
+           source venv/bin/activate
+           ```
+       After activation, your terminal prompt should be prefixed with `(venv)`.
+
+3. **Install Dependencies**:  
+   Once the virtual environment is activated, install the required Python packages using the `requirements.txt` file.
+
    ```bash
-   pip install pydub
+   pip install -r requirements.txt
+   ```
 
 # How to Clear BOSS RC-30
 ## Before proceeding, copy entire "ROLAND" folder on RC-30 to backup drive. Only delete folders as follows. Never delete folders without performing a recovery. Do not place more than one WAV file in any folder. If a folder already contains a WAV file, do not overwrite it. Write WAV files into empty folders only. Filenames can contain the following characters: A-Z (uppercase letters), 0-9 (numerals), _ (underscore)
